@@ -1,0 +1,20 @@
+git init 初始化仓库
+git add <file>添加
+git commit -m "xx" 提交
+git status 查看状态
+git diff <filename> 查看区别
+git log 查看提交历史
+git log --pretty=oneline 查看一行历史记录
+git reset --hard HEAD^ 回退到上个版本
+git reset --hard HEAD~10 回退到上10个版本
+git reset --hard <commit_id> 回退到某个版本
+git reflog 查看历史命令
+git checkout --<file> 丢弃工作区修改 / 误删文件恢复
+git reset HEAD <file> 撤销暂存区修改
+git rm file 从版本库中删除文件
+
+git branch dev 创建dev分支
+git checkout dev 切换dev分支
+git checkout -b dev 创建并切换到dev分支
+git branch 查看分支
+git merge dev 合成dev分支

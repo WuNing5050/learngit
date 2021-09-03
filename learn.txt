@@ -21,3 +21,8 @@ git merge dev 合成dev分支
 git branch -d 删除分支
 git log --graph 查看分支历史
 git merge --no-ff -m "merge with no-ff" dev 禁用Fast forward模式来合并
+git stash 存储工作区
+git stash list 查看工作区
+git stash apply 恢复stash内容
+git stash drop 删除stash内容
+git stash pop 恢复并删除stash内容

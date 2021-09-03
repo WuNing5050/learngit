@@ -34,3 +34,4 @@ git push origin --tags 推送所有标签
 git tag -a <tag-name> -m <message> <commit-id> 打标签
 git show <tag-name> 查看标签信息
 git tag -d <tag-name>删除标签
+git config --global alias.<缩写> '全称'
